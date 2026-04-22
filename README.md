@@ -47,6 +47,24 @@ DeepLearning-Notebooks/
 | Lab 7 | CIFAR-10 CNN | Conv2D, EarlyStopping, ModelCheckpoint |
 | Lab 8 | LSTM Text Generation | LSTM, NLTK Gutenberg corpus, n-gram sequences |
 
+## Learning Progression
+
+```
+Perceptron → ANN → CNN → U-Net → GAN → LSTM
+    │           │      │       │       │      │
+Single       Multi  Conv   Encoder  Adver- Sequence
+Neuron       Layer  Filters Decoder  sarial Modeling
+```
+
+| Stage | Concepts Mastered |
+|-------|-------------------|
+| **Foundations** | Perceptron, activation functions, backpropagation |
+| **ANNs** | Dense layers, dropout, batch normalization, softmax |
+| **CNNs** | Conv2D, pooling, padding, feature maps, EarlyStopping |
+| **Segmentation** | U-Net encoder-decoder, skip connections, IoU metric |
+| **Generative** | GAN generator/discriminator, adversarial loss |
+| **Sequence** | LSTM cells, n-gram sequences, next-word prediction |
+
 ## Tech Stack
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
